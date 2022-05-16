@@ -1,0 +1,103 @@
+body {
+    font-family: "Lato", sans-serif;
+    background:url(../../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #2ba6df;
+    background-color: aliceblue;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #imgadmin{
+      width: 40px;
+      height: auto;
+  }
+  #imguser{
+    width: 30px;
+    height: auto;
+}
+/* // Dispositivos extra small (telefones em modo retrato, com menos de 576px)
+// Sem media query para `xs`, já que este é o padrão, no Bootstrap.
+
+// Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) { 
+  body{
+    background:url(../../img/back.jg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+}
+
+/* // Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) { 
+  body{
+    background:url(../../img/back.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+}
+
+/* // Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) { 
+  body{
+    background:url(../../img/back.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+}
+
+/* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {  
+  body{
+    background:url(../../img/back.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "wef/calendar",
+    "description": "Calend\u0000rio Agenda de Eventos com PHP.",
+    "autoload": {
+        "psr-4": {
+            "Wef\\Calendar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davidson Santos",
+            "email": "davidson.santos@adm.unifenas.br"
+        }
+    ],
+    
+    "require": {},
+    "autoload-dev":{
+        "psr-4": {
+            "Classes\\":"../../class",
+            "Models\\": "../../model"
+        }
+    },
+
+        "require": {
+            "phpmailer/phpmailer": "^6.3"
+        }
+    }
+     

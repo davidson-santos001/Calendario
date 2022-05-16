@@ -1,0 +1,36 @@
+
+/* .btn:hover{
+    animation: rotate 1s linear;
+    background:#0051ff;
+   box-shadow:0 5px 0 #606ff4;
+   text-decoration: underline;
+font-family: sans-serif;
+} */
+.btn {
+    transition: all 0.5s;
+    cursor: pointer;
+    
+
+}
+
+.btn:hover{
+    
+-webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        border-radius: 10px;
+        font-family: sans-serif;
+        background:#041e57;
+        text-decoration: underline;
+}
+
+#Uimg{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+    #Uimg:hover{
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+        border-radius: 8px;
+    }
+ 
