@@ -38,13 +38,13 @@ $description = ($events['description']);
                             <div class="container-fluid">
                                 <div class="row d-flex justify-content-center">
                                     <div class="col-md-5">
-                                        <span class="modal-title modal-content bg-primary text-white modal-title text-center">
+                                        <span class="modal-title modal-content bg-success text-white modal-title text-center">
                                             <h5>Faça a sua Reserva</h5>
                                         </span>
 
                                         <div class="shadow p-3 mb-5 bg-body rounded">
                                             <form name="formEditar" id="formEditar" method="post" class="form-control " action="<?php echo DIRPAGE . 'controllers/ControllerEditar.php'; ?>">
-                                                <img src="../../img/logo.png" id="Uimg" class="img-fluid mx-auto d-block border-bottom" alt="unifenas">
+                                                <img src="../../img/logo.jpg" id="Uimg" class="img-fluid mx-auto d-block border-bottom" alt="unifenas">
                                                 <input type="hidden" name="idForm" id="idForm" class="form-control form-control-sm" value="<?php echo intval($events['id']); ?>"><br>
                                                 <!-- Aqui tu vai montar uma mini validação -->
                                                 <?php
@@ -229,8 +229,8 @@ $description = ($events['description']);
                                                 <P><input type="color" id="cor" name="cor" value="<?php echo $events['color'];
                                                                                                     ?>" hidden></P>
 
-                                                <input class="btn btn-primary " type="submit" value="Confirmar Edição">
-                                                <a href="<?php echo DIRPAGE . 'controllers/ControllerDeletar.php?id=' . $_GET['id']; ?>"><button class="btn btn-primary " type="button">Deletar</button></a>
+                                                <input class="btn btn-success " type="submit" value="Confirmar Edição">
+                                                <a href="<?php echo DIRPAGE . 'controllers/ControllerDeletar.php?id=' . $_GET['id']; ?>"><button class="btn btn-danger " type="button">Deletar</button></a>
                                             </form>
 
 

@@ -29,14 +29,14 @@
                             <div class="container-fluid">
                                 <div class="row d-flex justify-content-center">
                                     <div class="col-md-5">
-                                        <span class="modal-title modal-content bg-primary text-white modal-title text-center">
+                                        <span class="modal-title modal-content bg-success text-white modal-title text-center">
                                             <h5>Faça a sua Reserva</h5>
                                         </span>
 
 
                                         <div class="shadow p-3 mb-5 bg-body rounded">
                                             <form name="formAdd" id="formAdd" class="formAdd" method="post" class="form-control " action="<?php echo DIRPAGE . 'controllers/ControllerAdd.php'; ?>">
-                                                <img src="../../img/logo.png" id="Uimg" class="img-fluid mx-auto d-block border-bottom" alt="unifenas">
+                                                <img src="../../img/logo.jpg" id="Uimg" class="img-fluid mx-auto d-block border-bottom" alt="unifenas">
                                                 <label for="Data" class="form-label">
                                                     <h6>Data:</h5>
                                                 </label><input type="date" name="date" id="date"  class="form-control form-control-sm date" value="<?php echo $date->format("
@@ -216,8 +216,8 @@
                                                 <h4 hidden>Selecione uma cor de identificação:</h4>
                                                 <P><input type="color" id="cor" name="cor" hidden></P>
 
-                                                <input class="btn btn-primary " type="submit"  value="Fazer a Reserva">
-                                                <input class="btn btn-primary " type="reset" value="Limpar">
+                                                <input class="btn btn-success " type="submit"  value="Fazer a Reserva">
+                                                <input class="btn btn-warning" type="reset" value="Limpar">
 
 
                                             </form>

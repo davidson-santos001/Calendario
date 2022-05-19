@@ -60,7 +60,7 @@ $objEvents->editarEventos(
               <div class="container-fluid">
                 <div class="row d-flex justify-content-center">
                   <div class="col-md-5">
-                    <span class="d-block p-2 bg-primary text-white">Reserva efetuada com sucesso.</span>
+                    <span class="d-block p-2 bg-success text-white">Reserva efetuada com sucesso.</span>
                     <div class="shadow p-3 mb-5 bg-body rounded">
                       <label for="staticEmail" class="form-label">Nome:</label>
                       <input class="form-control form-control-sm" type="text" value="<?php echo  $title ?>" aria-label="Disabled input example" disabled readonly>
@@ -76,8 +76,8 @@ $objEvents->editarEventos(
                       <label for="staticEmail" class="form-label">Sala ou laboratório:</label>
                       <input class="form-control form-control-sm" type="text" value="<?php echo $reserva ?>" aria-label="Disabled input example" disabled readonly>
 
-                      <p> <br><a href="../views/user/"> <button type="button" class="btn btn-primary">Calendário</button></a>
-                        <a href="../index.php"> <button type="button" class="btn btn-primary">Home</button></a>
+                      <p> <br><a href="../views/user/"> <button type="button" class="btn btn-success">Calendário</button></a>
+                        <a href="../index.php"> <button type="button" class="btn btn-success">Home</button></a>
                       </p>
 
                     </div>

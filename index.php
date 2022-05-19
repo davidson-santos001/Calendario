@@ -26,7 +26,7 @@
 
         <a href="https://webmail.unifenas.br/" target="blank">&nbsp;<img src="img/webmail.png" id="imguser" class="img-fluid mx-auto " alt="Webmail">&nbsp;Webmail</a>
         <a href="https://intranet.unifenas.br/chamada/login.aspx" target="blank">&nbsp;<img src="img/chamada.png" id="imguser" class="img-fluid mx-auto " alt="Chamada">&nbsp;chamada</a>
-        <a href="http://tiu.unifenas.br/" target="blank">&nbsp;<img src="img/tiu_web.png" id="imguser" class="img-fluid mx-auto " alt="Tiu Web">&nbsp;Tiu Web</a>
+        <a href="http://tiu.unifenas.br/" target="blank">&nbsp;<img src="img/tiu_web.png" id="imguser" class="img-fluid mx-auto " alt="Tiu Web">&nbsp;Moodle</a>
 
     </div> 
     <div id="container ">
