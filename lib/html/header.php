@@ -32,7 +32,7 @@ $objEvents = new  \Classes\ClassEvents();
             <div class="modal-content">
                 <div class="modal-header">
 
-                    <h5 class="modal-title " id="exampleModalLabel">Detalhes do Evento </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Detalhes do Evento </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
@@ -62,9 +62,9 @@ $objEvents = new  \Classes\ClassEvents();
 
 <hr>
                         </div>
-                        <a href="../../controllers/listar_usuario.html"><button class="btn btn-primary " type="button">Listar eventos </button></a>
-                        <a><button type="button" class="btn btn-primary" onclick="editar()">Editar</button></a>
-                        <a><button type="button" class="btn btn-primary" onclick="deletar()">Deletar</button></a>
+                        <a href="../../controllers/listar_usuario.html"><button class="btn btn-primary" type="button">Listar eventos </button></a>
+                        <a><button type="button" class="btn btn-success" onclick="editar()">Editar</button></a>
+                        <a><button type="button" class="btn btn-danger" onclick="deletar()">Deletar</button></a>
                     </div>
                 </div>
             </div>

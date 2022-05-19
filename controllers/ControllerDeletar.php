@@ -35,12 +35,12 @@ $objEvents->deleteEvento($id);
               <div class="container-fluid">
                 <div class="row d-flex justify-content-center">
                   <div class="col-md-5">
-                    <span class="d-block p-2 bg-primary text-white">Evento excluido com sucesso.</span>
+                    <span class="d-block p-2 bg-success text-white">Evento excluido com sucesso.</span>
                     <div class="shadow p-3 mb-5 bg-body rounded">
                     <img src="../../img/lixeira.gif" id="Uimg" class="img-fluid mx-auto d-block border-bottom" alt="unifenas">
 
-                      <p> <br><a href="../views/manager/"> <button type="button" class="btn btn-primary">Calendário</button></a>
-                        <a href="../index.php"> <button type="button" class="btn btn-primary">Home</button></a>
+                      <p> <br><a href="../views/manager/"> <button type="button" class="btn btn-success">Calendário</button></a>
+                        <a href="../index.php"> <button type="button" class="btn btn-success">Home</button></a>
                       </p>
 
                     </div>
